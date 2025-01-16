@@ -44,6 +44,8 @@ const CountChart = () => {
             barSize={32}
             data={data}
           >
+
+            
             <RadialBar background dataKey="count" />
           </RadialBarChart>
         </ResponsiveContainer>
@@ -68,6 +70,7 @@ const CountChart = () => {
           <h2 className="text-xs text-gray-300">Girls (45%)</h2>
         </div>
       </div>
+      
     </div>
   );
 };
